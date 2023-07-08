@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    background-color: #fff8f3;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px 0px 80px;
+}
+.menus {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+#nav-title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+#nav-title span {
+    color: red;
+}
+.menus a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.menus li {
+    list-style-type: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 18px;
+    padding: 5px;
+    width: 40px;
+}
+.menus li:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.primary-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.primary-btn:hover {
+    background-color: crimson;
+}
+header {
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-position: bottom right, top left;
+    background-repeat: no-repeat;
+    background-size: 800px, 85px;
+    background-color: #fff8f3;
+}
+.banner {
+    height: 580px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-image img {
+    width: 500px;
+}
+.banner-content {
+    text-align: center;
+    width: 500px;
+}
+.greeting {
+    font-size: 40px;
+}
+.banner .name {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.banner .description {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(192, 94, 94);
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.btn .primary-btn {
+    margin-top: 30px;
+    width: 200px;
+}
+.about {
+    margin: 130px auto;
+    padding: 130px;
+    background-color: #fff8f3;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.info-box {
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+}
+.info {
+    text-align: center;
+    padding: 5px;
+}
+.whatido {
+    padding: 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.whatido h1 {
+    font-size: 50px;
+}
+.whatido p {
+    width: 700px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    gap: 40px;
+}
+.skill {
+    width: 250px;
+    border: 1px solid chartreuse;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.skill p {
+    width: 200px;
+}
+.resumes1 > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.resumes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.resume {
+    width: 50%;
+    padding: 0px 40px;
+    width: 500px;
+}
+.resume h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.resume p {
+    color: rgba(128, 128, 128, 0.559);
+}
+.resume .subject {
+    margin-bottom: 10px;
+}
+.resume .varsity {
+    margin-bottom: 10px;
+}
+.resume hr {
+    margin: 20px 60px;
+}
+.cv-btn {
+    padding: 10px;
+    width: 200px;
+    color: white;
+    margin: 50px auto;
+    background-color: rgb(31, 1, 1);
+    border: 2px solid rgb(31, 1, 1);
+    border-radius: 20%;
+}
+#cv-btn div {
+    width: 200px;
+}
+#cv-btn {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    padding: 150px;
+    background-color: #fff8f3;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container p {
+    width: 500px;
+}
+input {
+    width: 300px;
+    background-color: rgb(19, 20, 129);
+    border: 2px solid rgb(19, 20, 129);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.form-btn {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100px;
+}
+.form-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
